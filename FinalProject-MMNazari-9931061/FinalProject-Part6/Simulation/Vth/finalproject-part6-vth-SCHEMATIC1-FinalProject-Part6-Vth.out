@@ -1,0 +1,150 @@
+
+**** 01/25/22 16:28:26 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-FinalProject-Part6-Vth"  [ x:\orcad\capture\finalproject-mmnazari-9931061\finalproject-part6\simulation\vth\
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "finalproject-part6-vth-schematic1-finalproject-part6-vth.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1 0.318 0.318
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\finalproject-part6-vth-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING finalproject-part6-vth-SCHEMATIC1.net ****
+* source FINALPROJECT-PART6-VTH
+C_C41         N02211 0  100n  
+R_R41         N02201 N02211  5k  
+R_R40         N02237 N02201  5k  
+V_V40         N02237 0 DC 0Vdc AC 0.01Vac 
+C_C40         N02201 N02215  470n  
+V_V5         N022930 0 15
+X_U40         N02211 0 N022930 N023533 N02215 LM741
+V_V6         0 N023533 15
+
+**** RESUMING finalproject-part6-vth-schematic1-finalproject-part6-vth.sim.cir ****
+.END
+
+**** 01/25/22 16:28:26 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-FinalProject-Part6-Vth"  [ x:\orcad\capture\finalproject-mmnazari-9931061\finalproject-part6\simulation\vth\
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U40.x_lm741.dx 
+          IS  800.000000E-18 
+          RS    1            
+
+
+               X_U40.x_lm741.dy 
+          IS  800.000000E-18 
+          RS    1.000000E-03 
+         CJO   10.000000E-12 
+
+
+**** 01/25/22 16:28:26 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-FinalProject-Part6-Vth"  [ x:\orcad\capture\finalproject-mmnazari-9931061\finalproject-part6\simulation\vth\
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U40.x_lm741.qx 
+               NPN             
+          IS  800.000000E-18 
+          BF   93.75         
+          NF    1            
+          BR    1            
+          NR    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 01/25/22 16:28:26 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-FinalProject-Part6-Vth"  [ x:\orcad\capture\finalproject-mmnazari-9931061\finalproject-part6\simulation\vth\
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02201)-394.7E-06 (N02211)-789.5E-06 (N02215)  -14.7290 (N02237)    0.0000     
+
+(N022930)   15.0000                   (N023533)  -15.0000                       
+
+(X_U40.x_lm741.6)     .0145           (X_U40.x_lm741.7)  -14.7980               
+
+(X_U40.x_lm741.8)  -14.7980           (X_U40.x_lm741.9)    0.0000               
+
+(X_U40.x_lm741.10)    -.6081          (X_U40.x_lm741.11)   14.9600              
+
+(X_U40.x_lm741.12)   14.9610          (X_U40.x_lm741.13)    -.5941              
+
+(X_U40.x_lm741.14)    -.5943          (X_U40.x_lm741.53)   14.0000              
+
+(X_U40.x_lm741.54)  -14.0000          (X_U40.x_lm741.90)   -1.3882              
+
+(X_U40.x_lm741.91)   40.0000          (X_U40.x_lm741.92)  -40.0000              
+
+(X_U40.x_lm741.99)    0.0000          
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V40       -7.895E-08
+    V_V5        -1.667E-03
+    V_V6        -2.789E-04
+    X_U40.x_lm741.vb   1.449E-07
+    X_U40.x_lm741.vc   2.873E-11
+    X_U40.x_lm741.ve  -1.388E-03
+    X_U40.x_lm741.vlim  -1.388E-03
+    X_U40.x_lm741.vlp  -4.139E-11
+    X_U40.x_lm741.vln  -3.862E-11
+
+    TOTAL POWER DISSIPATION   3.06E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .13
+

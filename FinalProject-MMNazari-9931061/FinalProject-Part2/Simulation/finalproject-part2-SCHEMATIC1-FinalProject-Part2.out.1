@@ -1,0 +1,47 @@
+
+**** 01/19/22 06:51:46 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-FinalProject-Part2"  [ X:\orcad\capture\FinalProject-Part2\finalproject-part2-SCHEMATIC1-FinalProject-Part2.
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "finalproject-part2-SCHEMATIC1-FinalProject-Part2.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1k 0 10k
+-----------$
+ERROR -- Invalid value
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\finalproject-part2-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING finalproject-part2-SCHEMATIC1.net ****
+* source FINALPROJECT-PART2
+X_U2         N00568 N00211 N000032 N000033 N00238 LM741
+V_V6         0 N000033 15
+R_R6         N00211 N00238  10k  
+R_R5         0 N00211  27k  
+R_R8         N00376 N00568  5k  
+R_R7         N00337 N00376  5k  
+C_C4         N00568 0  100n  
+C_C3         N00376 N00238  470n  
+V_V7         N00337 0 DC 0Vdc AC 0.01Vac 
+V_V5         N000032 0 15
+
+**** RESUMING finalproject-part2-SCHEMATIC1-FinalProject-Part2.sim.cir ****
+.END
+

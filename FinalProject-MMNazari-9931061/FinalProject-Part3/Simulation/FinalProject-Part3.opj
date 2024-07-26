@@ -1,0 +1,50 @@
+(ExpressProject "FinalProject-Part3"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\finalproject-part3.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\finalproject-part3-schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\finalproject-part3-schematic1-finalproject-part3.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\finalproject-part3-schematic1-finalproject-part3.sim"
+        (DisplayName "SCHEMATIC1-FinalProject-Part3")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 381"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 63 1241 86 506")
+        (Scroll "0 91")
+        (Zoom "132")
+        (Occurrence "/"))
+      (Path
+         "X:\ORCAD\CAPTURE\FINALPROJECT-MMNAZARI-9931061\FINALPROJECT-PART3\SIMULATION\FINALPROJECT-PART3.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

@@ -1,0 +1,11 @@
+* source FINALPROJECT-PART2
+X_U2         N00568 N00211 N000032 N000033 N00238 LM741
+V_V6         0 N000033 15
+R_R6         N00211 N00238  10k  
+R_R5         0 N00211  27k  
+R_R8         N00376 N00568  5k  
+R_R7         N00337 N00376  5k  
+C_C4         N00568 0  100n  
+C_C3         N00376 N00238  470n  
+V_V7         N00337 0 DC 0Vdc AC 0.01Vac 
+V_V5         N000032 0 15
