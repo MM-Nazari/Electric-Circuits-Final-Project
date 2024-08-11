@@ -33,17 +33,17 @@ The implemented Project is in [Part06 Simulation](./FinalProject-MMNazari-993106
 Theoritical Analysis of this part is in [Part06 Theory](./FinalProject-MMNazari-9931061/FinalProject-Part6/Theory).
 
 ## IDE
-This project is developed using Xilinx ISE Design Suite.
+This project is developed using ORCAD Capture CIS.
 
 ## Installation
 Step-by-step instructions on how to get the development environment running:
 
 ### Steps
 1. Clone repository to your local system.
-2. Launch Xilinx ISE Design Suite.
+2. Launch ORCAD Capture CIS.
 3. Click on File > Open Project.
-4. Navigate to the folder where you cloned the repository and select the .xise project file.
-5. Click on Simulate Behavioral Model in the processes pane under Simulation.
-6. Use the ISim tool to run simulations and view waveforms.
-7. Configure inputs and observe outputs to validate the design.
+4. Navigate to the folder where you cloned the repository and select the .opj project file.
+5. Use the simulation tool within ORCAD to run your circuit simulations.
+6. Analyze the results and waveforms to validate your design.
+
 
