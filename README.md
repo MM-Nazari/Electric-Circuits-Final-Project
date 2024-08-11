@@ -1,4 +1,4 @@
-# Electrical Circuits Final Project
+# Electric Circuits Final Project
 
 ## Table of Contents
 - [Project Description](#project-description)
